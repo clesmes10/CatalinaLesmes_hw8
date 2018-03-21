@@ -5,3 +5,4 @@ import matplotlib.pyplot as plt
 
 def normal_dist(x, mean, sigma):
     pnormal = np.sqrt(1.0/(2*np.pi*(sigma**2)))*np.exp(-((x-mean)**2)
+    return pnormal
